@@ -11,4 +11,7 @@ elif operacja == ’-’:
 if operacja == '*':
     print (f’{a} * {b} = {a * b}’)
 elif operacja == ’/’:
-    print ( f’{a} / {b} = {a/b}’)
+    if b==0:
+        print("Nie dziel przez zero")
+    else:
+        print ( f’{a} / {b} = {a/b}’)
